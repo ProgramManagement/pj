@@ -64,7 +64,6 @@ def order_handle(request):
         order_info.user_id = int(user_id)  # 订单的用户id
         order_info.ototal = Decimal(request.POST.get('total'))  # 从前端获取的订单总价
         order_info.save()  # 保存订单
-
         user=UserInfo.objects.get(pk=user_id)
         user.uconsumed=user.uconsumed+order_info.ototal               #将本次订单总价计入到用户总消费数额中
         user.save()   #修改用户记录

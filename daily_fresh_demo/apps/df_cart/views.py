@@ -3,16 +3,20 @@ from django.shortcuts import render, redirect, reverse
 
 from .models import *
 from df_user import user_decorator
-
+from df_user.models import UserInfo
 
 @user_decorator.login
 def user_cart(request):
     uid = request.session['user_id']
     carts = CartInfo.objects.filter(user_id=uid)
+    user=UserInfo.objects.get(pk=uid)
     context = {
         'title': '购物车',
         'page_name': 1,
-        'carts': carts
+        'carts': carts,
+        '10coupon':user.u10coupon,
+        '20coupon': user.u20coupon,
+        '30coupon': user.u30coupon
     }
     if request.is_ajax():
         count = CartInfo.objects.filter(user_id=request.session['user_id']).count()

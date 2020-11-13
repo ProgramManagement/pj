@@ -14,7 +14,10 @@ class UserInfo(models.Model):
     uaddress = models.CharField(max_length=100, default="", verbose_name="地址")
     uyoubian = models.CharField(max_length=6, default="", verbose_name="邮编")
     uphone = models.CharField(max_length=11, default="", verbose_name="手机号")
-    uconsumed=models.IntegerField(max_length=11, default=0, verbose_name="已消费金额")
+    uconsumed=models.IntegerField(default=0, verbose_name="已消费金额")
+    u10coupon=models.IntegerField(default=0, verbose_name="十元优惠券")
+    u20coupon = models.IntegerField(default=0, verbose_name="二十元优惠券")
+    u30coupon = models.IntegerField(default=0, verbose_name="三十元优惠券")
     # default,blank是python层面的约束，不影响数据库表结构，修改时不需要迁移 python manage.py makemigrations
 
     class Meta:

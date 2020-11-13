@@ -20,8 +20,8 @@ class GoodsBrowserAdmin(admin.ModelAdmin):
     refresh_times = [3, 5]
 
 
-admin.site.site_header = '天天生鲜后台管理系统'
-admin.site.site_title = '天天生鲜后台管理系统'
+admin.site.site_header = '阳光生鲜后台管理系统'
+admin.site.site_title = '阳光生鲜后台管理系统'
 
 admin.site.register(UserInfo, UserInfoAdmin)
 admin.site.register(GoodsBrowser, GoodsBrowserAdmin)
