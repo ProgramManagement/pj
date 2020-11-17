@@ -40,3 +40,16 @@ class GoodsBrowser(models.Model):
 
     def __str__(self):
         return "{0}浏览记录{1}".format(self.user.uname, self.good.gtitle)
+
+class GoodsComment(models.Model):
+    
+    user = models.ForeignKey(UserInfo, on_delete=models.CASCADE, verbose_name="用户ID")
+    good = models.ForeignKey(GoodsInfo, on_delete=models.CASCADE, verbose_name="商品ID")
+    create_time = models.DateTimeField(default=datetime.now, verbose_name="评论时间")
+    description = models.TextField(max_length=200, verbose_name="评论内容",)
+    class Meta:
+        verbose_name = "商品评论"
+        verbose_name_plural = verbose_name
+    def __str__(self):
+        return "{0}对商品{1}的评论{2}".format(self.user.uname, self.good.gtitle,self.create_time)
+

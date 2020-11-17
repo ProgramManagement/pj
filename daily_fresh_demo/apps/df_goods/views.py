@@ -1,10 +1,10 @@
 from django.core.paginator import Paginator
-from django.shortcuts import render
+from django.shortcuts import render, HttpResponse
 
-from df_user.models import UserInfo
+from df_user.models import UserInfo,GoodsComment,GoodsBrowser
 from .models import GoodsInfo, TypeInfo
 from df_cart.models import CartInfo
-from df_user.models import GoodsBrowser
+#from df_user.models import GoodsBrowser
 
 
 def index(request):
@@ -88,6 +88,30 @@ def good_list(request, tid, pindex, sort):
     }
     return render(request, 'df_goods/list.html', context)
 
+def comment(request):
+   
+    user_id = request.session["user_id"]
+    user = UserInfo.objects.get(pk=int(user_id))
+
+    gtitle = request.POST.get("gtitle")
+    goods = GoodsInfo.objects.get(gtitle=gtitle)
+
+    description  = request.POST.get("description")
+     # 创建对象
+    GoodsComment.objects.create(user=user, good=goods, description=description)
+
+    news = goods.gtype.goodsinfo_set.order_by('-id')[0:2]
+    comments = GoodsComment.objects.filter(good=goods).order_by('-create_time')
+    context = {
+        'title': goods.gtype.ttitle,
+        'guest_cart': 1,
+        'cart_num': cart_count(request),
+        'goods': goods,
+        'news': news,
+        'comments': comments
+    }
+    response = render(request, 'df_goods/detail.html', context)
+    return response
 
 def detail(request, gid):
     good_id = gid
@@ -96,12 +120,14 @@ def detail(request, gid):
     goods.save()
 
     news = goods.gtype.goodsinfo_set.order_by('-id')[0:2]
+    comments = GoodsComment.objects.filter(good=goods).order_by('-create_time')
     context = {
         'title': goods.gtype.ttitle,
         'guest_cart': 1,
         'cart_num': cart_count(request),
         'goods': goods,
         'news': news,
+        'comments': comments,
         'id': good_id,
     }
     response = render(request, 'df_goods/detail.html', context)
@@ -126,7 +152,7 @@ def detail(request, gid):
                     _.delete()
     return response
 
-
+    
 def cart_count(request):
     if 'user_id' in request.session:
         return CartInfo.objects.filter(user_id=request.session['user_id']).count
@@ -174,3 +200,5 @@ def ordinary_search(request):
         'paginator': paginator,
     }
     return render(request, 'df_goods/ordinary_search.html', context)
+
+   
