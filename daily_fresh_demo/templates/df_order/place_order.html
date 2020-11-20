@@ -74,6 +74,9 @@
 		<div class="settle_con">
 			<div class="total_goods_count">共<em>{{ carts|length }}</em>件商品，总金额<b>{{ total_price }}</b></div>
 			<div class="transit">运费：<b>{{ trans_cost }}元</b></div>
+            <div class="transit">10元优惠券减免：<b>{{ count10 }} x 10 = {{ coupon10}}元</b></div>
+            <div class="transit">20元优惠券减免：<b>{{ count20 }} x 20 = {{ coupon20 }}元</b></div>
+            <div class="transit">30元优惠券减免：<b>{{ count30 }} x 30 = {{ coupon30 }}元</b></div>
 			<div class="total_pay">实付款：<b>{{ total_trans_price }}</b></div>
 		</div>
 	</div>
@@ -116,7 +119,10 @@
 		    data = {
 		            'cart_ids':cartids,
                     'total':total,
-                    'csrfmiddlewaretoken':'{{ csrf_token }}'
+                    'csrfmiddlewaretoken':'{{ csrf_token }}',
+                    'count10':{{ count10 }},
+                    'count20':{{ count20 }},
+                    'count30':{{ count30 }},
 		    };
 
 		    //先发请求

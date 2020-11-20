@@ -16,6 +16,14 @@ def order(request):
     uid = request.session['user_id']
     user = UserInfo.objects.get(id=uid)
     cart_ids = request.GET.getlist('cart_id')
+
+    count10=int(request.GET.get('10'))
+    count20 = int(request.GET.get('20'))            #获取对应优惠券数量
+    count30 = int(request.GET.get('30'))
+
+    coupon10 = count10*10
+    coupon20 = count20*20                             #计算每一种优惠券总价
+    coupon30 = count30*30
     carts = []
     total_price = 0
     for goods_id in cart_ids:
@@ -25,7 +33,7 @@ def order(request):
 
     total_price = float('%0.2f' % total_price)
     trans_cost = 10  # 运费
-    total_trans_price = trans_cost + total_price
+    total_trans_price = trans_cost + total_price-coupon10-coupon20-coupon30
     context = {
         'title': '提交订单',
         'page_name': 1,
@@ -34,6 +42,12 @@ def order(request):
         'total_price': float('%0.2f' % total_price),
         'trans_cost': trans_cost,
         'total_trans_price': total_trans_price,
+        'count10': count10,
+        'count20': count20,
+        'count30': count30,
+        'coupon10': coupon10,
+        'coupon20': coupon20,
+        'coupon30': coupon30
         # 'value':value
     }
     return render(request, 'df_order/place_order.html', context)
@@ -54,6 +68,9 @@ def order(request):
 def order_handle(request):
     tran_id = transaction.savepoint()  # 保存事务发生点
     cart_ids = request.POST.get('cart_ids')  # 用户提交的订单购物车，此时cart_ids为字符串，例如'1,2,3,'
+    count10 = int(request.POST.get('count10'))
+    count20 = int(request.POST.get('count20'))
+    count30 = int(request.POST.get('count30'))
     user_id = request.session['user_id']  # 获取当前用户的id
     data = {}
     try:
@@ -66,6 +83,9 @@ def order_handle(request):
         order_info.save()  # 保存订单
         user=UserInfo.objects.get(pk=user_id)
         user.uconsumed=user.uconsumed+order_info.ototal               #将本次订单总价计入到用户总消费数额中
+        user.u10coupon = user.u10coupon-count10
+        user.u20coupon = user.u20coupon - count20                    #扣除本次消费用户使用的优惠券数量
+        user.u30coupon = user.u30coupon - count30
         user.save()   #修改用户记录
 
 

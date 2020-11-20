@@ -28,6 +28,34 @@
 
         //数量加
         //为所有的 add绑定点击事件
+
+        $('.10use').blur(function (){
+
+
+            if($(this).val()>{{ 10coupon }}){
+                alert("对应优惠券数量不足")
+                $(this).val("0")
+            }
+                total()
+
+        });
+
+        $('.20use').blur(function (){
+           if($(this).val()>{{ 20coupon }}){
+                alert("对应优惠券数量不足")
+                $(this).val("0")
+            }
+                total()
+        });
+
+        $('.30use').blur(function (){
+           if($(this).val()>{{ 30coupon }}){
+                alert("对应优惠券数量不足")
+                $(this).val("0")
+            }
+                total()
+        });
+
         $('.add').click(function () {
 
             txt=$(this).next();
@@ -115,8 +143,17 @@
                 total_count++;
             });
             //显示总计
+
+
+            count10=parseFloat($('.10use').val())
+            count20=parseFloat($('.20use').val())
+            count30=parseFloat($('.30use').val())      //获取每个优惠券使用数量
+
+            total1=total1-count10*10-count20*20-count30*30                 //计算优惠后的总价格
+
             $('#total').text(total1.toFixed(2));
             $('.total_count1').text(total_count);
+
         }
     function go_order() {
         s = '';
@@ -129,9 +166,14 @@
 
         //删掉最后一个&
 
-        s=s.substring(0,s.length-1);
-		
+		s=s+"10="+$('.10use').val()+ '&'
+        s=s+"20="+$('.20use').val()+ '&'
+        s=s+"30="+$('.30use').val()                 //传递三种优惠券使用数量的参数
 		{#                        alert(s);#}
+
+
+
+
         location.href = '/order?'+s ;
 
         }
@@ -141,9 +183,16 @@
 {% block center_body %}
 	<div class="total_count">全部商品
         <em>{{ carts|length }}</em>件
-    <em>10元优惠券数量:{{ 10coupon }}</em>
-    <em>20元优惠券数量:{{ 20coupon }}</em>
-    <em>30元优惠券数量:{{ 30coupon }}</em>
+    <em>当前拥有10元优惠券数量:{{ 10coupon }}</em>
+    <em>当前拥有20元优惠券数量:{{ 20coupon }}</em>
+    <em>当前拥有30元优惠券数量:{{ 30coupon }}</em>
+        <br>
+        <span>10元券使用数</span><input class="10use" value="0">
+     <br>
+    <span>20元券使用数</span><input class="20use"  value="0">
+       <br>
+    <span>30元券使用数</span><input class="30use"  value="0">
+
     </div>
 
 	<ul class="cart_list_th clearfix">

@@ -1,6 +1,7 @@
 from django.core.paginator import Paginator
 from django.shortcuts import render, HttpResponse
 
+from df_user import user_decorator
 from df_user.models import UserInfo,GoodsComment,GoodsBrowser
 from .models import GoodsInfo, TypeInfo
 from df_cart.models import CartInfo
@@ -88,6 +89,8 @@ def good_list(request, tid, pindex, sort):
     }
     return render(request, 'df_goods/list.html', context)
 
+
+
 def comment(request):
    
     user_id = request.session["user_id"]
@@ -112,6 +115,43 @@ def comment(request):
     }
     response = render(request, 'df_goods/detail.html', context)
     return response
+
+
+@user_decorator.login
+def coupon(request):
+
+    user_id = request.session["user_id"]
+    user = UserInfo.objects.get(pk=int(user_id))
+
+    uconsumed=user.uconsumed
+
+    context={
+        'uconsumed':uconsumed
+    }
+    response = render(request, 'df_goods/coupon.html', context)
+    return response
+
+def do_coupon(request):
+    coupon=request.POST.get("coupon")
+    user_id = request.session["user_id"]
+    user = UserInfo.objects.get(pk=int(user_id))
+
+
+    if(coupon=="10"):
+        user.u10coupon = user.u10coupon + 1
+
+    elif(coupon=="20"):
+        user.u20coupon = user.u20coupon + 1
+
+    elif(coupon=="30"):
+        user.u30coupon = user.u30coupon + 1
+
+    user.save()
+
+    response = render(request, 'df_goods/coupon.html')
+    return response
+
+
 
 def detail(request, gid):
     good_id = gid

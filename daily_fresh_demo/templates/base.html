@@ -4,7 +4,8 @@
 
     <div class="header_con">
 		<div class="header">
-			<div class="welcome fl" onclick="test()">欢迎来到阳光生鲜!</div>
+			<div class="welcome fl">欢迎来到阳光生鲜!</div>
+
 			<div class="fr">
 {#                判断是否已经登录#}
                 {% if request.session.user_name|default:'' != '' %}
@@ -15,7 +16,7 @@
 				<div class="login_btn fl">欢迎您：<em>{{ request.session.user_name }}</em>
                     <em>{{ request.session.user_consume }}</em>
                     <span>|</span>
-{#                    <em><a href="{% url "df_user:logout" %}">退出</a></em>#}
+                    <em><a href="{% url "df_user:logout" %}">退出</a></em>
 				</div>
                 {% else %}
 				<div class="login_btn fl">
@@ -25,6 +26,8 @@
 				</div>
                 {% endif %}
 				<div class="user_link fl">
+                    <span>|</span>
+					<a href="{% url "df_goods:index" %}">返回首页</a>
 					<span>|</span>
 					<a href="{% url "df_user:info" %}">用户中心</a>
 					<span>|</span>
