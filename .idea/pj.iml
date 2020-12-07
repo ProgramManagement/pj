@@ -1,30 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
-  <component name="FacetManager">
-    <facet type="Python" name="Python">
-      <configuration sdkName="" />
-    </facet>
-  </component>
+<module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$">
-<<<<<<< HEAD
-      <sourceFolder url="file://$MODULE_DIR$/daily_fresh_demo/apps" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/sunny_fresh/apps" isTestSource="false" />
-    </content>
-    <orderEntry type="jdk" jdkName="Python 3.6 (测试文件夹)" jdkType="Python SDK" />
-=======
-      <sourceFolder url="file://$MODULE_DIR$/sunny_fresh/apps" isTestSource="false" />
-    </content>
+    <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
->>>>>>> 22cae4fba9db5d21930991d8b9324083856caa98
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TemplatesService">
-    <option name="TEMPLATE_CONFIGURATION" value="Django" />
+    <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />
     <option name="TEMPLATE_FOLDERS">
       <list>
         <option value="$MODULE_DIR$/sunny_fresh/templates" />
       </list>
     </option>
+  </component>
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
   </component>
 </module>
