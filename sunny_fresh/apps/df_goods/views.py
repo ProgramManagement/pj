@@ -34,7 +34,7 @@ def index(request):
         cart_num = CartInfo.objects.filter(user_id=int(user_id)).count()
 
     context = {
-        'title': '梁非凡',
+        'title': '阳光生鲜',
         'cart_num': cart_num,
         'guest_cart': 1,
         'type0': type0, 'type01': type01,

@@ -2,13 +2,247 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45b254c5-00e7-4039-a4fb-730780a75586" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/pj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pj.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daily_fresh_demo/daily_fresh_demo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/daily_fresh_demo/daily_fresh_demo/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daily_fresh_demo/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/daily_fresh_demo/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daily_fresh_demo/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/daily_fresh_demo/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jmeter/添加cookie以访问登陆后的界面.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jmeter/状态码为200，未发生重定向，说明成功访问.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jmeter/登录请求聚合报告.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jmeter/登陆后请求聚合报告.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jmeter/首页聚合报告.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/.idea/daily_fresh_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/.idea/daily_fresh_demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_cart/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_cart/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_cart/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_cart/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_cart/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_cart/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_cart/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_cart/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_cart/migrations/0002_auto_20181218_1200.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_cart/migrations/0002_auto_20181218_1200.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_cart/migrations/0003_auto_20190427_2158.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_cart/migrations/0003_auto_20190427_2158.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_cart/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_cart/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_cart/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_cart/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_cart/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_cart/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_cart/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_cart/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_goods/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_goods/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_goods/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_goods/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_goods/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_goods/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_goods/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_goods/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_goods/migrations/0002_auto_20181218_1200.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_goods/migrations/0002_auto_20181218_1200.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_goods/migrations/0003_auto_20190427_2158.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_goods/migrations/0003_auto_20190427_2158.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_goods/migrations/0004_auto_20201109_1512.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_goods/migrations/0004_auto_20201109_1512.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_goods/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_goods/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_goods/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_goods/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_goods/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_goods/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_goods/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_goods/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_order/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_order/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_order/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_order/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_order/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_order/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_order/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_order/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_order/migrations/0002_auto_20181218_1200.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_order/migrations/0002_auto_20181218_1200.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_order/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_order/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_order/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_order/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_order/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_order/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_order/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_order/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_user/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_user/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_user/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_user/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_user/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_user/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_user/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_user/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_user/migrations/0002_auto_20180607_2151.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_user/migrations/0002_auto_20180607_2151.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_user/migrations/0003_goodsbrowser.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_user/migrations/0003_goodsbrowser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_user/migrations/0004_auto_20181218_1200.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_user/migrations/0004_auto_20181218_1200.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_user/migrations/0005_goodsbrowser_browser_time.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_user/migrations/0005_goodsbrowser_browser_time.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_user/migrations/0006_auto_20190427_2158.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_user/migrations/0006_auto_20190427_2158.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_user/migrations/0007_userinfo_uconsumed.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_user/migrations/0007_userinfo_uconsumed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_user/migrations/0008_auto_20201109_1516.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_user/migrations/0008_auto_20201109_1516.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_user/migrations/0009_auto_20201112_1355.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_user/migrations/0009_auto_20201112_1355.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_user/migrations/0010_goodscomment.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_user/migrations/0010_goodscomment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_user/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_user/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_user/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_user/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_user/user_decorator.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_user/user_decorator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/df_user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/df_user/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/apps/utils/goods_reco.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/apps/utils/goods_reco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/daily_fresh_demo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/daily_fresh_demo/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/daily_fresh_demo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/daily_fresh_demo/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/daily_fresh_demo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/daily_fresh_demo/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/daily_fresh_demo/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/daily_fresh_demo/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/cld00.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/cld00.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/cld01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/cld01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/cld02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/cld02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/cld03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/cld03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/egg00.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/egg00.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/egg01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/egg01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/egg02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/egg02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/egg03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/egg03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods001_gxe2R45.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods001_gxe2R45.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods002_MDWYzFU.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods002_MDWYzFU.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods003_I10VrSC.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods003_I10VrSC.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods003_QjVxM2e.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods003_QjVxM2e.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods005.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods005.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods005_HkX6imN.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods005_HkX6imN.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods006.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods006.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods007.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods007.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods009.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods009.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods009_1Y22XAV.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods009_1Y22XAV.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods009_1Y22XAV_Xkxl6mq.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods009_1Y22XAV_Xkxl6mq.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods009_2qlBjR9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods009_2qlBjR9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods009_ECGyaM2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods009_ECGyaM2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods009_Jq7Dk5Y.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods009_Jq7Dk5Y.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods009_Jq7Dk5Y_S2Psj5b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods009_Jq7Dk5Y_S2Psj5b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods010.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods010.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods010_sCLUSfI.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods010_sCLUSfI.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods012.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods012.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods012_YqqLqZ2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods012_YqqLqZ2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods012_fUad9Io.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods012_fUad9Io.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods013.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods013.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods013_3Nynaeh.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods013_3Nynaeh.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods017.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods017.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods018.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods018.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods018_5ezSBcV.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods018_5ezSBcV.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods019.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods019.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods019_KWeEVX7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods019_KWeEVX7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods020.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods020.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods020_SmRaQgj.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods020_SmRaQgj.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods021.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods021.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods021_HMsKKDV.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods021_HMsKKDV.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods_detail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods_detail.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods_detail_MMB8vJ4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/goods_detail_MMB8vJ4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/meat00.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/meat00.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/meat01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/meat01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/meat02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/meat02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/meat03.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/meat03.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/mmexport1533352807527.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/mmexport1533352807527.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/v2-2d45613b0fb8cdd36f53c3b31d0c6ee8_hd.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/v2-2d45613b0fb8cdd36f53c3b31d0c6ee8_hd.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/veg00.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/veg00.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/veg01.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/veg01.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/veg02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/veg02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/veg03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/media/df_goods/image/2019/05/veg03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/sql/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/sql/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/sql/df_cart_cartinfo.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/sql/df_cart_cartinfo.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/sql/df_goods_goodsinfo.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/sql/df_goods_goodsinfo.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/sql/df_goods_typeinfo.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/sql/df_goods_typeinfo.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/sql/df_order_orderdetailinfo.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/sql/df_order_orderdetailinfo.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/sql/df_order_orderinfo.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/sql/df_order_orderinfo.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/sql/df_user_goodsbrowser.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/sql/df_user_goodsbrowser.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/sql/df_user_userinfo.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/sql/df_user_userinfo.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods003_I10VrSC.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods003_I10VrSC.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods005.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods005.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods006.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods006.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods007.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods007.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods009.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods009.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods009_1Y22XAV.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods009_1Y22XAV.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods009_Jq7Dk5Y.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods009_Jq7Dk5Y.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods010.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods010.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods012.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods012.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods013.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods013.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods017.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods017.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods018.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods018.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods019.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods019.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods020.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods020.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods021.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods021.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods_detail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/df_goods/goods_detail.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/df_goods/v2-2d45613b0fb8cdd36f53c3b31d0c6ee8_hd.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/df_goods/v2-2d45613b0fb8cdd36f53c3b31d0c6ee8_hd.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/adv01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/adv01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/adv02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/adv02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/banner01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/banner01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/banner02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/banner02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/banner03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/banner03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/banner04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/banner04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/banner05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/banner05.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/banner06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/banner06.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/down.png" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/down.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/fruit.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/fruit.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/cld00.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/cld00.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/cld01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/cld01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/cld02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/cld02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/cld03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/cld03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/egg00.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/egg00.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/egg01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/egg01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/egg02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/egg02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/egg03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/egg03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods001.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods002.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods005.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods005.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods006.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods006.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods007.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods007.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods008.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods008.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods009.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods009.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods010.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods010.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods011.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods011.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods012.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods012.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods013.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods013.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods014.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods014.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods015.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods015.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods016.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods016.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods017.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods017.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods018.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods018.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods019.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods019.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods020.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods020.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods021.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/goods021.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/meat00.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/meat00.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/meat01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/meat01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/meat02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/meat02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/meat03.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/meat03.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/veg00.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/veg00.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/veg01.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/veg01.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/veg02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/veg02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods/veg03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods/veg03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/goods_detail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/goods_detail.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/icons02.png" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/icons02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/interval_line.png" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/interval_line.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/left_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/left_bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/pay_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/pay_icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/register_banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/register_banner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/shop_cart.png" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/shop_cart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/slide.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/slide.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/slide02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/slide02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/slide03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/slide03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/images/slide04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/images/slide04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/js/jquery-1.12.4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/js/jquery-1.12.4.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/js/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/js/jquery-ui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/js/jquery.cookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/js/jquery.cookie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/js/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/js/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/static/js/slide.js" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/static/js/slide.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/templates/base_foot.html" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/templates/base_foot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/templates/df_cart/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/templates/df_cart/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/templates/df_goods/coupon.html" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/templates/df_goods/coupon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/templates/df_goods/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/templates/df_goods/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/templates/df_goods/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/templates/df_goods/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/templates/df_goods/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/templates/df_goods/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/templates/df_goods/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/templates/df_goods/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/templates/df_goods/ordinary_search.html" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/templates/df_goods/ordinary_search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/templates/df_order/place_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/templates/df_order/place_order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/templates/df_user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/templates/df_user/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/templates/df_user/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/templates/df_user/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/templates/df_user/user_center_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/templates/df_user/user_center_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/templates/df_user/user_center_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/templates/df_user/user_center_order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunny_fresh/templates/df_user/user_center_site.html" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/templates/df_user/user_center_site.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +255,57 @@
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="df_goods_goodsinfo: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="df_user_goodscomment: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="df_user_userinfo: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -31,10 +316,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../pj/daily_fresh_demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -63,12 +349,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="D:\实验室\测试文件夹\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/daily_fresh_demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sunny_fresh" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/daily_fresh_demo/manage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sunny_fresh/manage.py" />
       <option name="PARAMETERS" value="runserver" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,6 +381,8 @@
       <workItem from="1606288192332" duration="2128000" />
       <workItem from="1606448456656" duration="1234000" />
       <workItem from="1606453536533" duration="5025000" />
+      <workItem from="1606889000216" duration="1874000" />
+      <workItem from="1607303701542" duration="7008000" />
     </task>
     <servers />
   </component>
@@ -121,6 +409,6 @@
     <state x="233" y="19" key="#Inspections/0.0.1280.720@0.0.1280.720" timestamp="1605597310276" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pj$manage.coverage" NAME="manage Coverage Results" MODIFIED="1606465484393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/daily_fresh_demo" />
+    <SUITE FILE_PATH="coverage/pj$manage.coverage" NAME="manage Coverage Results" MODIFIED="1607318331469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sunny_fresh" />
   </component>
 </project>
