@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="45b254c5-00e7-4039-a4fb-730780a75586" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
@@ -244,6 +245,9 @@
       <change beforePath="$PROJECT_DIR$/sunny_fresh/templates/df_user/user_center_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/templates/df_user/user_center_order.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sunny_fresh/templates/df_user/user_center_site.html" beforeDir="false" afterPath="$PROJECT_DIR$/sunny_fresh/templates/df_user/user_center_site.html" afterDir="false" />
     </list>
+=======
+    <list default="true" id="45b254c5-00e7-4039-a4fb-730780a75586" name="Default Changelist" comment="" />
+>>>>>>> 22cae4fba9db5d21930991d8b9324083856caa98
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -316,6 +320,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -324,6 +329,12 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+=======
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../pj/daily_fresh_demo" />
+>>>>>>> 22cae4fba9db5d21930991d8b9324083856caa98
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
@@ -378,11 +389,15 @@
       <workItem from="1605184959187" duration="430000" />
       <workItem from="1605597202852" duration="26000" />
       <workItem from="1605597249792" duration="76000" />
+<<<<<<< HEAD
       <workItem from="1606288192332" duration="2128000" />
       <workItem from="1606448456656" duration="1234000" />
       <workItem from="1606453536533" duration="5025000" />
       <workItem from="1606889000216" duration="1874000" />
       <workItem from="1607303701542" duration="7008000" />
+=======
+      <workItem from="1606725563710" duration="263000" />
+>>>>>>> 22cae4fba9db5d21930991d8b9324083856caa98
     </task>
     <servers />
   </component>
@@ -394,9 +409,13 @@
       <map>
         <entry key="MAIN">
           <value>
+<<<<<<< HEAD
             <State>
               <option name="COLUMN_ORDER" />
             </State>
+=======
+            <State />
+>>>>>>> 22cae4fba9db5d21930991d8b9324083856caa98
           </value>
         </entry>
       </map>

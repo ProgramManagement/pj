@@ -162,6 +162,7 @@
         });
 
         $("#tab_btn2").click(function() {
+<<<<<<< HEAD
             var whether_login="{{ request.session.user_name }}"
             if(whether_login.length==0){
                  window.location.href="/user/login/"
@@ -177,6 +178,16 @@
 
 
 
+=======
+            
+            $("#tab_btn1").removeClass("active");
+            $("#tab_btn2").addClass("active");
+
+            $("#tabs_1").css({"display":"none"});
+            $("#tabs_2").css({"display":"block"});
+        });
+
+>>>>>>> 22cae4fba9db5d21930991d8b9324083856caa98
         $(".buy_btn").click(function () {
             num = parseInt($('.num_show').val());
             $.get('/cart/add{{ goods.id }}_' + num + '/', function (data) {

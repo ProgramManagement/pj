@@ -7,10 +7,16 @@
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+<<<<<<< HEAD
       <sourceFolder url="file://$MODULE_DIR$/daily_fresh_demo/apps" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sunny_fresh/apps" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6 (测试文件夹)" jdkType="Python SDK" />
+=======
+      <sourceFolder url="file://$MODULE_DIR$/sunny_fresh/apps" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+>>>>>>> 22cae4fba9db5d21930991d8b9324083856caa98
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TemplatesService">
